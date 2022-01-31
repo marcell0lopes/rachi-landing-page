@@ -28,6 +28,12 @@ export const Menu = styled.ul`
     a {
       text-decoration: none;
       color: var(--gray);
+      transition: 0.125s ease-in-out;
+
+      &:hover {
+        color: var(--blue);
+        filter: brightness(1.1);
+      }
     }
   }
 `;
