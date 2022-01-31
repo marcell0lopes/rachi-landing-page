@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+  padding: 1.5rem;
+  background: var(--white);
+  width: 100%;
+`;
+export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem;
-  background: var(--white);
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 export const Logo = styled.img`
