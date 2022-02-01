@@ -54,6 +54,7 @@ export const Card = styled.div`
 
     h5,
     h4 {
+      transform: scale(1.35);
       color: var(--white);
     }
   }
