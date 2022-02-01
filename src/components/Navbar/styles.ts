@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.header`
   padding: 1.5rem;
   background: var(--white);
+  height: 2rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 `;
 export const Content = styled.div`
   display: flex;
@@ -17,6 +22,7 @@ export const Logo = styled.img`
   height: 30px;
 `;
 export const Menu = styled.ul`
+  margin-right: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-around;

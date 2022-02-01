@@ -3,7 +3,7 @@ import { Container, Email } from './styles';
 
 export function Contato() {
   return (
-    <Container>
+    <Container id="contato">
       <h2>Contato</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia
