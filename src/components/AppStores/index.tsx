@@ -14,10 +14,18 @@ export function AppStores() {
           adipiscing tincidunt pretium.
         </p>
         <div>
-          <a href="https://github.com/marcell0lopes/">
+          <a
+            href="https://github.com/marcell0lopes/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={googlePlayImg} alt="download on google play" />
           </a>
-          <a href="#https://github.com/marcell0lopes/">
+          <a
+            href="https://github.com/marcell0lopes/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={appStoreImg} alt="download on apple app store" />
           </a>
         </div>

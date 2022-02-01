@@ -2,6 +2,7 @@ import { AppStores } from '../../components/AppStores';
 import { ComoFunciona } from '../../components/ComoFunciona';
 import { HeroSection } from '../../components/HeroSection';
 import { Navbar } from '../../components/Navbar';
+import { NossosPlanos } from '../../components/NossosPlanos';
 import { Container } from './styles';
 
 export function Home() {
@@ -11,8 +12,8 @@ export function Home() {
       <HeroSection />
       <ComoFunciona />
       <AppStores />
-      {/* <NossosPlanos/>
-    <Contato/>
+      <NossosPlanos />
+      {/* <Contato/>
     <Footer/> */}
     </Container>
   );

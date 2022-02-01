@@ -10,6 +10,7 @@ export const StyleBtn = styled.button`
   font-weight: 600;
   font-family: 'Inter';
   font-size: 1.2rem;
+  cursor: pointer;
 
   &.cta {
     margin: 3rem 0;
