@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
 
 --gray-light: #dbdbdb;
  --gray: #6e7275;
- --grey-200: #293145;
+ --gray-200: #293145;
 
 }
 
@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6, strong, button{
   font-family: 'Sora', sans-serif;
   font-weight: 600;
 }
+
 
 p, textarea, input, li {
   font-family: 'Inter';

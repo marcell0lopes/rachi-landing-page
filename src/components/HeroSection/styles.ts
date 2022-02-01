@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   background-color: var(--white-200);
-  width: 100%;
+
   max-height: 640px;
   padding: 0 3rem;
 
@@ -29,6 +29,6 @@ export const Content = styled.div`
   h1 {
     font-size: 3rem;
     letter-spacing: -0.2rem;
-    color: var(--grey-200);
+    color: var(--gray-200);
   }
 `;

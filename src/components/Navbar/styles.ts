@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.header`
   padding: 1.5rem;
   background: var(--white);
-  width: 100%;
 `;
 export const Content = styled.div`
   display: flex;

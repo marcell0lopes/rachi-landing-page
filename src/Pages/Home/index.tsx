@@ -1,3 +1,4 @@
+import { ComoFunciona } from '../../components/ComoFunciona';
 import { HeroSection } from '../../components/HeroSection';
 import { Navbar } from '../../components/Navbar';
 import { Container } from './styles';
@@ -7,8 +8,8 @@ export function Home() {
     <Container>
       <Navbar />
       <HeroSection />
-      {/* <ComoFunciona/>
-    <AppStores/>
+      <ComoFunciona />
+      {/* <AppStores/>
     <NossosPlanos/>
     <Contato/>
     <Footer/> */}
