@@ -11,10 +11,16 @@ export const StyleBtn = styled.button`
   font-family: 'Inter';
   font-size: 1.2rem;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
 
   &.cta {
     margin: 3rem 0;
     width: 200px;
     height: 56px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
   }
 `;
