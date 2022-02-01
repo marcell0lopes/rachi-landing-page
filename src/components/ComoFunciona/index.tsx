@@ -5,7 +5,7 @@ import gratuitoImg from '../../assets/gratuito.svg';
 
 export function ComoFunciona() {
   return (
-    <Container>
+    <Container id="funcionalidades">
       <h2>Como Funciona</h2>
       <Content>
         <div>
